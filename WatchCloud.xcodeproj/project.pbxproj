@@ -38,6 +38,11 @@
 		6F806F6F2285FEDB00BCF18B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F806F6E2285FEDB00BCF18B /* LoginVC.swift */; };
 		6F806F71228601F600BCF18B /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F806F70228601F600BCF18B /* Auth.storyboard */; };
 		6F8382282292EDDF0022FA99 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8382272292EDDF0022FA99 /* Cart.storyboard */; };
+		6F88C9FD22EC619900C9743F /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F806F70228601F600BCF18B /* Auth.storyboard */; };
+		6F88C9FF22EC626E00C9743F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F73B7C022860FDA005CFD55 /* RegisterVC.swift */; };
+		6F88CA0022EC62CD00C9743F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F806F6E2285FEDB00BCF18B /* LoginVC.swift */; };
+		6F88CA0122EC62D100C9743F /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FACA1FF2287108C00395BA8 /* ForgotPasswordVC.xib */; };
+		6F88CA0222EC62D400C9743F /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACA1FE2287108C00395BA8 /* ForgotPasswordVC.swift */; };
 		6FAAC357228D631F0025C7FF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAAC356228D631F0025C7FF /* Home.storyboard */; };
 		6FAAC35D228D65E10025C7FF /* AdminHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAAC35C228D65E10025C7FF /* AdminHomeVC.swift */; };
 		6FAAC35E228D66350025C7FF /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E798A2288255500910601 /* ProductsVC.swift */; };
@@ -477,7 +482,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F88C9FD22EC619900C9743F /* Auth.storyboard in Resources */,
 				6FAAC357228D631F0025C7FF /* Home.storyboard in Resources */,
+				6F88CA0122EC62D100C9743F /* ForgotPasswordVC.xib in Resources */,
 				6FACA20D22871BC700395BA8 /* CategoryCell.xib in Resources */,
 				6F7FC5A1229D462B00814615 /* CartItemCell.xib in Resources */,
 				6F806F612285EFAE00BCF18B /* LaunchScreen.storyboard in Resources */,
@@ -663,11 +670,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F88CA0022EC62CD00C9743F /* LoginVC.swift in Sources */,
 				6F7FC5A8229D891100814615 /* StripeCart.swift in Sources */,
 				6FAAC366228D88880025C7FF /* AddEditProductVC.swift in Sources */,
 				6F806F572285EFAD00BCF18B /* AppDelegate.swift in Sources */,
 				6F2E799B2289B6A800910601 /* Product.swift in Sources */,
 				6FACA1F32286D87700395BA8 /* RoundedViews.swift in Sources */,
+				6F88CA0222EC62D400C9743F /* ForgotPasswordVC.swift in Sources */,
 				6FACA20B22871BC700395BA8 /* CategoryCell.swift in Sources */,
 				6FAAC360228D6CC50025C7FF /* HomeVC.swift in Sources */,
 				6FACA1EC2286D2A400395BA8 /* Extentions.swift in Sources */,
@@ -677,6 +686,7 @@
 				6F2E799C2289B6BB00910601 /* ProductCell.swift in Sources */,
 				6FAAC35F228D66460025C7FF /* ProductDetailsVC.swift in Sources */,
 				6FAAC35D228D65E10025C7FF /* AdminHomeVC.swift in Sources */,
+				6F88C9FF22EC626E00C9743F /* RegisterVC.swift in Sources */,
 				6F7FC5A7229D88F000814615 /* UserService.swift in Sources */,
 				6FAAC362228D6D510025C7FF /* AdminProductsVC.swift in Sources */,
 				6F7FC59F229D462B00814615 /* CartItemCell.swift in Sources */,
