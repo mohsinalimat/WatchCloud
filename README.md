@@ -7,9 +7,9 @@ An iOS eCommerce application. You can add and browse categories and products. Al
 # What I Learned
 
 * Firebase
-** Auth
-** Database
-** Storage
-** Functions
-** Crashlytics
+  - Auth
+  - Database
+  - Storage
+  - Functions
+  - Crashlytics
 * Stripe API
